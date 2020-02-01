@@ -1,4 +1,4 @@
 # Env scripts
 .env.*
 .terraform*
-terraform.tfstate
+terraform.tfstate*
