@@ -1,6 +1,8 @@
 # ptest_infra
 Penetration tesing infrastructure as a code
+
 Based on https://www.terraform.io/docs/providers/azurerm/r/virtual_machine.html
+
 OS - Ubuntu
 
 ## Prerequisities
@@ -8,6 +10,7 @@ OS - Ubuntu
 
 ## Usage
 [Create service principal in Azure subscription](https://www.terraform.io/docs/providers/azurerm/guides/service_principal_client_secret.html)
+
 Edit _env.sh_ and replace _SUBSCRITION ID_, _App ID_, _PASSWORD_, _TENANT_ID_ with obtained values.
 
 ```Shell
